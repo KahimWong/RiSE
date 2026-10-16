@@ -1,0 +1,16 @@
+Third-party code notices
+
+The model, ScaleBlock, and segmentation loss include adaptations of EoMT
+(copyright 2025 Mobile Perception Systems Lab at TU/e), under the MIT License.
+
+Attention implementation portions originate from timm by Ross Wightman and
+contributors, under the Apache License, Version 2.0.
+
+The loss builds on Hugging Face Transformers, Mask2Former, and DETR
+(Hugging Face and Facebook, Inc. and affiliates), under Apache-2.0.
+
+The DCT encoder includes MBConv portions adapted from efficientnet-pytorch
+by Luke Melas-Kyriazi and contributors, under Apache-2.0.
+
+Apache-2.0 license text is provided in LICENSE-APACHE-2.0. Pretrained DINOv3
+weights and datasets are distributed separately under their own terms.

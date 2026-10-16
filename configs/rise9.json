@@ -1,0 +1,10 @@
+{
+  "backbone": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "num_experts": 9,
+  "residual_rank": 1,
+  "num_queries": 1,
+  "query_mode": "multi",
+  "use_dct": false,
+  "dct_fuse_block_idx": 10,
+  "dct_fuse_prob": 0.5
+}

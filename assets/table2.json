@@ -1,0 +1,845 @@
+{
+  "caption": "Table 2 \u2014 Seven-Test-Set Benchmark",
+  "rows": [
+    {
+      "method": "TruFor",
+      "venue": "CVPR'23",
+      "scores": [
+        {
+          "value": "0.261",
+          "color_percent": 29,
+          "style": "normal"
+        },
+        {
+          "value": "0.312",
+          "color_percent": 35,
+          "style": "normal"
+        },
+        {
+          "value": "0.252",
+          "color_percent": 28,
+          "style": "normal"
+        },
+        {
+          "value": "0.275",
+          "color_percent": 31,
+          "style": "normal"
+        },
+        {
+          "value": "0.213",
+          "color_percent": 24,
+          "style": "normal"
+        },
+        {
+          "value": "0.046",
+          "color_percent": 5,
+          "style": "normal"
+        },
+        {
+          "value": "0.104",
+          "color_percent": 11,
+          "style": "normal"
+        },
+        {
+          "value": "0.034",
+          "color_percent": 3,
+          "style": "normal"
+        },
+        {
+          "value": "0.099",
+          "color_percent": 11,
+          "style": "normal"
+        },
+        {
+          "value": "0.175",
+          "color_percent": 19,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "MVSS-Net",
+      "venue": "ICCV'23",
+      "scores": [
+        {
+          "value": "0.207",
+          "color_percent": 23,
+          "style": "normal"
+        },
+        {
+          "value": "0.371",
+          "color_percent": 42,
+          "style": "normal"
+        },
+        {
+          "value": "0.381",
+          "color_percent": 43,
+          "style": "normal"
+        },
+        {
+          "value": "0.320",
+          "color_percent": 36,
+          "style": "normal"
+        },
+        {
+          "value": "0.187",
+          "color_percent": 21,
+          "style": "normal"
+        },
+        {
+          "value": "0.037",
+          "color_percent": 4,
+          "style": "normal"
+        },
+        {
+          "value": "0.113",
+          "color_percent": 12,
+          "style": "normal"
+        },
+        {
+          "value": "0.027",
+          "color_percent": 2,
+          "style": "normal"
+        },
+        {
+          "value": "0.091",
+          "color_percent": 10,
+          "style": "normal"
+        },
+        {
+          "value": "0.189",
+          "color_percent": 21,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "Mesorch",
+      "venue": "AAAI'25",
+      "scores": [
+        {
+          "value": "0.423",
+          "color_percent": 48,
+          "style": "normal"
+        },
+        {
+          "value": "0.459",
+          "color_percent": 52,
+          "style": "normal"
+        },
+        {
+          "value": "0.465",
+          "color_percent": 53,
+          "style": "normal"
+        },
+        {
+          "value": "0.449",
+          "color_percent": 51,
+          "style": "normal"
+        },
+        {
+          "value": "0.294",
+          "color_percent": 33,
+          "style": "normal"
+        },
+        {
+          "value": "0.139",
+          "color_percent": 15,
+          "style": "normal"
+        },
+        {
+          "value": "0.241",
+          "color_percent": 27,
+          "style": "normal"
+        },
+        {
+          "value": "0.041",
+          "color_percent": 4,
+          "style": "normal"
+        },
+        {
+          "value": "0.178",
+          "color_percent": 20,
+          "style": "normal"
+        },
+        {
+          "value": "0.294",
+          "color_percent": 33,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "IML-ViT",
+      "venue": "arXiv",
+      "scores": [
+        {
+          "value": "0.469",
+          "color_percent": 53,
+          "style": "normal"
+        },
+        {
+          "value": "0.512",
+          "color_percent": 58,
+          "style": "normal"
+        },
+        {
+          "value": "0.449",
+          "color_percent": 51,
+          "style": "normal"
+        },
+        {
+          "value": "0.476",
+          "color_percent": 54,
+          "style": "normal"
+        },
+        {
+          "value": "0.427",
+          "color_percent": 48,
+          "style": "normal"
+        },
+        {
+          "value": "0.210",
+          "color_percent": 23,
+          "style": "normal"
+        },
+        {
+          "value": "0.256",
+          "color_percent": 29,
+          "style": "normal"
+        },
+        {
+          "value": "0.076",
+          "color_percent": 8,
+          "style": "normal"
+        },
+        {
+          "value": "0.242",
+          "color_percent": 27,
+          "style": "normal"
+        },
+        {
+          "value": "0.343",
+          "color_percent": 39,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "PSCC-Net",
+      "venue": "TCSVT'22",
+      "scores": [
+        {
+          "value": "0.386",
+          "color_percent": 44,
+          "style": "normal"
+        },
+        {
+          "value": "0.393",
+          "color_percent": 44,
+          "style": "normal"
+        },
+        {
+          "value": "0.497",
+          "color_percent": 56,
+          "style": "normal"
+        },
+        {
+          "value": "0.425",
+          "color_percent": 48,
+          "style": "normal"
+        },
+        {
+          "value": "0.517",
+          "color_percent": 59,
+          "style": "normal"
+        },
+        {
+          "value": "0.441",
+          "color_percent": 50,
+          "style": "normal"
+        },
+        {
+          "value": "0.550",
+          "color_percent": 62,
+          "style": "normal"
+        },
+        {
+          "value": "0.126",
+          "color_percent": 14,
+          "style": "normal"
+        },
+        {
+          "value": "0.408",
+          "color_percent": 46,
+          "style": "normal"
+        },
+        {
+          "value": "0.416",
+          "color_percent": 47,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "Cat-Net",
+      "venue": "IJCV'22",
+      "scores": [
+        {
+          "value": "0.760",
+          "color_percent": 87,
+          "style": "normal"
+        },
+        {
+          "value": "0.641",
+          "color_percent": 73,
+          "style": "normal"
+        },
+        {
+          "value": "0.764",
+          "color_percent": 87,
+          "style": "normal"
+        },
+        {
+          "value": "0.722",
+          "color_percent": 82,
+          "style": "normal"
+        },
+        {
+          "value": "0.609",
+          "color_percent": 69,
+          "style": "normal"
+        },
+        {
+          "value": "0.178",
+          "color_percent": 20,
+          "style": "normal"
+        },
+        {
+          "value": "0.343",
+          "color_percent": 39,
+          "style": "normal"
+        },
+        {
+          "value": "0.063",
+          "color_percent": 7,
+          "style": "normal"
+        },
+        {
+          "value": "0.298",
+          "color_percent": 34,
+          "style": "normal"
+        },
+        {
+          "value": "0.480",
+          "color_percent": 54,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "TIFDM",
+      "venue": "TCE'24",
+      "scores": [
+        {
+          "value": "0.090",
+          "color_percent": 10,
+          "style": "normal"
+        },
+        {
+          "value": "0.257",
+          "color_percent": 29,
+          "style": "normal"
+        },
+        {
+          "value": "0.259",
+          "color_percent": 29,
+          "style": "normal"
+        },
+        {
+          "value": "0.202",
+          "color_percent": 23,
+          "style": "normal"
+        },
+        {
+          "value": "0.058",
+          "color_percent": 6,
+          "style": "normal"
+        },
+        {
+          "value": "0.006",
+          "color_percent": 0,
+          "style": "normal"
+        },
+        {
+          "value": "0.013",
+          "color_percent": 1,
+          "style": "normal"
+        },
+        {
+          "value": "0.018",
+          "color_percent": 1,
+          "style": "normal"
+        },
+        {
+          "value": "0.024",
+          "color_percent": 2,
+          "style": "normal"
+        },
+        {
+          "value": "0.100",
+          "color_percent": 11,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "CAFTB",
+      "venue": "TOMM'24",
+      "scores": [
+        {
+          "value": "0.292",
+          "color_percent": 33,
+          "style": "normal"
+        },
+        {
+          "value": "0.377",
+          "color_percent": 43,
+          "style": "normal"
+        },
+        {
+          "value": "0.328",
+          "color_percent": 37,
+          "style": "normal"
+        },
+        {
+          "value": "0.332",
+          "color_percent": 37,
+          "style": "normal"
+        },
+        {
+          "value": "0.262",
+          "color_percent": 29,
+          "style": "normal"
+        },
+        {
+          "value": "0.119",
+          "color_percent": 13,
+          "style": "normal"
+        },
+        {
+          "value": "0.301",
+          "color_percent": 34,
+          "style": "normal"
+        },
+        {
+          "value": "0.033",
+          "color_percent": 3,
+          "style": "normal"
+        },
+        {
+          "value": "0.179",
+          "color_percent": 20,
+          "style": "normal"
+        },
+        {
+          "value": "0.244",
+          "color_percent": 27,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "DTD",
+      "venue": "CVPR'23",
+      "scores": [
+        {
+          "value": "0.686",
+          "color_percent": 78,
+          "style": "normal"
+        },
+        {
+          "value": "0.739",
+          "color_percent": 84,
+          "style": "bold"
+        },
+        {
+          "value": "0.803",
+          "color_percent": 92,
+          "style": "underline"
+        },
+        {
+          "value": "0.743",
+          "color_percent": 85,
+          "style": "normal"
+        },
+        {
+          "value": "0.525",
+          "color_percent": 60,
+          "style": "normal"
+        },
+        {
+          "value": "0.124",
+          "color_percent": 14,
+          "style": "normal"
+        },
+        {
+          "value": "0.284",
+          "color_percent": 32,
+          "style": "normal"
+        },
+        {
+          "value": "0.058",
+          "color_percent": 6,
+          "style": "normal"
+        },
+        {
+          "value": "0.247",
+          "color_percent": 28,
+          "style": "normal"
+        },
+        {
+          "value": "0.460",
+          "color_percent": 52,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "FFDN",
+      "venue": "ECCV'24",
+      "scores": [
+        {
+          "value": "0.877",
+          "color_percent": 100,
+          "style": "bold"
+        },
+        {
+          "value": "0.739",
+          "color_percent": 84,
+          "style": "bold"
+        },
+        {
+          "value": "0.821",
+          "color_percent": 94,
+          "style": "bold"
+        },
+        {
+          "value": "0.813",
+          "color_percent": 93,
+          "style": "bold"
+        },
+        {
+          "value": "0.533",
+          "color_percent": 61,
+          "style": "normal"
+        },
+        {
+          "value": "0.241",
+          "color_percent": 27,
+          "style": "normal"
+        },
+        {
+          "value": "0.357",
+          "color_percent": 40,
+          "style": "normal"
+        },
+        {
+          "value": "0.071",
+          "color_percent": 7,
+          "style": "normal"
+        },
+        {
+          "value": "0.300",
+          "color_percent": 34,
+          "style": "normal"
+        },
+        {
+          "value": "0.520",
+          "color_percent": 59,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "ADCD-Net",
+      "venue": "ICCV'25",
+      "scores": [
+        {
+          "value": "0.803",
+          "color_percent": 92,
+          "style": "normal"
+        },
+        {
+          "value": "0.718",
+          "color_percent": 82,
+          "style": "underline"
+        },
+        {
+          "value": "0.791",
+          "color_percent": 90,
+          "style": "normal"
+        },
+        {
+          "value": "0.771",
+          "color_percent": 88,
+          "style": "underline"
+        },
+        {
+          "value": "0.623",
+          "color_percent": 71,
+          "style": "normal"
+        },
+        {
+          "value": "0.441",
+          "color_percent": 50,
+          "style": "normal"
+        },
+        {
+          "value": "0.579",
+          "color_percent": 66,
+          "style": "normal"
+        },
+        {
+          "value": "0.159",
+          "color_percent": 18,
+          "style": "normal"
+        },
+        {
+          "value": "0.450",
+          "color_percent": 51,
+          "style": "normal"
+        },
+        {
+          "value": "0.588",
+          "color_percent": 67,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "RiSE-1",
+      "venue": "Ours",
+      "scores": [
+        {
+          "value": "0.744",
+          "color_percent": 85,
+          "style": "normal"
+        },
+        {
+          "value": "0.590",
+          "color_percent": 67,
+          "style": "normal"
+        },
+        {
+          "value": "0.654",
+          "color_percent": 74,
+          "style": "normal"
+        },
+        {
+          "value": "0.662",
+          "color_percent": 75,
+          "style": "normal"
+        },
+        {
+          "value": "0.728",
+          "color_percent": 83,
+          "style": "normal"
+        },
+        {
+          "value": "0.597",
+          "color_percent": 68,
+          "style": "normal"
+        },
+        {
+          "value": "0.686",
+          "color_percent": 78,
+          "style": "normal"
+        },
+        {
+          "value": "0.158",
+          "color_percent": 17,
+          "style": "normal"
+        },
+        {
+          "value": "0.542",
+          "color_percent": 62,
+          "style": "normal"
+        },
+        {
+          "value": "0.594",
+          "color_percent": 68,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "RiSE-3",
+      "venue": "Ours",
+      "scores": [
+        {
+          "value": "0.764",
+          "color_percent": 87,
+          "style": "normal"
+        },
+        {
+          "value": "0.588",
+          "color_percent": 67,
+          "style": "normal"
+        },
+        {
+          "value": "0.675",
+          "color_percent": 77,
+          "style": "normal"
+        },
+        {
+          "value": "0.676",
+          "color_percent": 77,
+          "style": "normal"
+        },
+        {
+          "value": "0.760",
+          "color_percent": 87,
+          "style": "normal"
+        },
+        {
+          "value": "0.625",
+          "color_percent": 71,
+          "style": "normal"
+        },
+        {
+          "value": "0.740",
+          "color_percent": 84,
+          "style": "normal"
+        },
+        {
+          "value": "0.173",
+          "color_percent": 19,
+          "style": "normal"
+        },
+        {
+          "value": "0.575",
+          "color_percent": 65,
+          "style": "normal"
+        },
+        {
+          "value": "0.618",
+          "color_percent": 70,
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "method": "RiSE-9",
+      "venue": "Ours",
+      "scores": [
+        {
+          "value": "0.791",
+          "color_percent": 90,
+          "style": "normal"
+        },
+        {
+          "value": "0.579",
+          "color_percent": 66,
+          "style": "normal"
+        },
+        {
+          "value": "0.692",
+          "color_percent": 79,
+          "style": "normal"
+        },
+        {
+          "value": "0.687",
+          "color_percent": 78,
+          "style": "normal"
+        },
+        {
+          "value": "0.785",
+          "color_percent": 89,
+          "style": "underline"
+        },
+        {
+          "value": "0.692",
+          "color_percent": 79,
+          "style": "bold"
+        },
+        {
+          "value": "0.795",
+          "color_percent": 91,
+          "style": "bold"
+        },
+        {
+          "value": "0.175",
+          "color_percent": 19,
+          "style": "underline"
+        },
+        {
+          "value": "0.611",
+          "color_percent": 69,
+          "style": "underline"
+        },
+        {
+          "value": "0.644",
+          "color_percent": 73,
+          "style": "underline"
+        }
+      ]
+    },
+    {
+      "method": "RiSE-9-DCT",
+      "venue": "Ours",
+      "scores": [
+        {
+          "value": "0.864",
+          "color_percent": 99,
+          "style": "underline"
+        },
+        {
+          "value": "0.662",
+          "color_percent": 75,
+          "style": "normal"
+        },
+        {
+          "value": "0.775",
+          "color_percent": 88,
+          "style": "normal"
+        },
+        {
+          "value": "0.767",
+          "color_percent": 87,
+          "style": "normal"
+        },
+        {
+          "value": "0.808",
+          "color_percent": 92,
+          "style": "bold"
+        },
+        {
+          "value": "0.654",
+          "color_percent": 74,
+          "style": "underline"
+        },
+        {
+          "value": "0.784",
+          "color_percent": 89,
+          "style": "underline"
+        },
+        {
+          "value": "0.218",
+          "color_percent": 24,
+          "style": "bold"
+        },
+        {
+          "value": "0.616",
+          "color_percent": 70,
+          "style": "bold"
+        },
+        {
+          "value": "0.681",
+          "color_percent": 77,
+          "style": "bold"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1428" height="734" viewBox="0 0 1428 734" role="img" aria-labelledby="title description">
+<title id="title">Table 2 — Seven-Test-Set Benchmark</title>
+<desc id="description">F1 scores for fifteen methods across seven test sets. Digits use the paper’s blue-to-orange scale, with alternating gray rows. Bold marks the best and underline marks the second best. A copyable table follows in the README.</desc>
+<rect width="1428" height="734" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#18212b">
+<line x1="24" y1="24" x2="1404" y2="24" stroke="#78818b" stroke-width="2"/>
+<text x="524.0" y="51" text-anchor="middle" fill="#18212b" font-weight="700">In-Domain (Synthetic Data)</text>
+<text x="1019.0" y="51" text-anchor="middle" fill="#18212b" font-weight="700">Cross-Domain (Real Data)</text>
+<text x="36" y="90" text-anchor="start" fill="#18212b" font-weight="700">Method</text>
+<text x="216" y="90" text-anchor="start" fill="#18212b" font-weight="700">Venue</text>
+<text x="359.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">FCD</text>
+<text x="469.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">SCD</text>
+<text x="579.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">Test</text>
+<text x="689.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">AvgI</text>
+<text x="799.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">T-SROIE</text>
+<text x="909.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">OSTF</text>
+<text x="1019.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">TPIC-13</text>
+<text x="1129.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">RTM</text>
+<text x="1239.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">AvgC</text>
+<text x="1349.0" y="90" text-anchor="middle" fill="#18212b" font-weight="700">Avg</text>
+<line x1="24" y1="110" x2="1404" y2="110" stroke="#78818b" stroke-width="1.5"/>
+<rect x="24" y="110" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="136" text-anchor="start" fill="#18212b">TruFor</text>
+<text x="216" y="136" text-anchor="start" fill="#18212b">CVPR&#x27;23</text>
+<text x="359.0" y="136" text-anchor="middle" fill="#3b4d87">0.261</text>
+<text x="469.0" y="136" text-anchor="middle" fill="#484b7c">0.312</text>
+<text x="579.0" y="136" text-anchor="middle" fill="#394d89">0.252</text>
+<text x="689.0" y="136" text-anchor="middle" fill="#404c83">0.275</text>
+<text x="799.0" y="136" text-anchor="middle" fill="#314e90">0.213</text>
+<text x="909.0" y="136" text-anchor="middle" fill="#0a54b4">0.046</text>
+<text x="1019.0" y="136" text-anchor="middle" fill="#1752a9">0.104</text>
+<text x="1129.0" y="136" text-anchor="middle" fill="#0655b8">0.034</text>
+<text x="1239.0" y="136" text-anchor="middle" fill="#1752a9">0.099</text>
+<text x="1349.0" y="136" text-anchor="middle" fill="#27509a">0.175</text>
+<text x="36" y="176" text-anchor="start" fill="#18212b">MVSS-Net</text>
+<text x="216" y="176" text-anchor="start" fill="#18212b">ICCV&#x27;23</text>
+<text x="359.0" y="176" text-anchor="middle" fill="#2f4f92">0.207</text>
+<text x="469.0" y="176" text-anchor="middle" fill="#56496e">0.371</text>
+<text x="579.0" y="176" text-anchor="middle" fill="#58486c">0.381</text>
+<text x="689.0" y="176" text-anchor="middle" fill="#4a4a7a">0.320</text>
+<text x="799.0" y="176" text-anchor="middle" fill="#2b4f96">0.187</text>
+<text x="909.0" y="176" text-anchor="middle" fill="#0855b6">0.037</text>
+<text x="1019.0" y="176" text-anchor="middle" fill="#1952a7">0.113</text>
+<text x="1129.0" y="176" text-anchor="middle" fill="#0455ba">0.027</text>
+<text x="1239.0" y="176" text-anchor="middle" fill="#1453ab">0.091</text>
+<text x="1349.0" y="176" text-anchor="middle" fill="#2b4f96">0.189</text>
+<rect x="24" y="190" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="216" text-anchor="start" fill="#18212b">Mesorch</text>
+<text x="216" y="216" text-anchor="start" fill="#18212b">AAAI&#x27;25</text>
+<text x="359.0" y="216" text-anchor="middle" fill="#624763">0.423</text>
+<text x="469.0" y="216" text-anchor="middle" fill="#6b455b">0.459</text>
+<text x="579.0" y="216" text-anchor="middle" fill="#6d4559">0.465</text>
+<text x="689.0" y="216" text-anchor="middle" fill="#69465d">0.449</text>
+<text x="799.0" y="216" text-anchor="middle" fill="#444b7f">0.294</text>
+<text x="909.0" y="216" text-anchor="middle" fill="#1f51a2">0.139</text>
+<text x="1019.0" y="216" text-anchor="middle" fill="#374d8b">0.241</text>
+<text x="1129.0" y="216" text-anchor="middle" fill="#0855b6">0.041</text>
+<text x="1239.0" y="216" text-anchor="middle" fill="#295098">0.178</text>
+<text x="1349.0" y="216" text-anchor="middle" fill="#444b7f">0.294</text>
+<text x="36" y="256" text-anchor="start" fill="#18212b">IML-ViT</text>
+<text x="216" y="256" text-anchor="start" fill="#18212b">arXiv</text>
+<text x="359.0" y="256" text-anchor="middle" fill="#6d4559">0.469</text>
+<text x="469.0" y="256" text-anchor="middle" fill="#774350">0.512</text>
+<text x="579.0" y="256" text-anchor="middle" fill="#69465d">0.449</text>
+<text x="689.0" y="256" text-anchor="middle" fill="#6f4557">0.476</text>
+<text x="799.0" y="256" text-anchor="middle" fill="#624763">0.427</text>
+<text x="909.0" y="256" text-anchor="middle" fill="#2f4f92">0.210</text>
+<text x="1019.0" y="256" text-anchor="middle" fill="#3b4d87">0.256</text>
+<text x="1129.0" y="256" text-anchor="middle" fill="#1053af">0.076</text>
+<text x="1239.0" y="256" text-anchor="middle" fill="#374d8b">0.242</text>
+<text x="1349.0" y="256" text-anchor="middle" fill="#504a74">0.343</text>
+<rect x="24" y="270" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="296" text-anchor="start" fill="#18212b">PSCC-Net</text>
+<text x="216" y="296" text-anchor="start" fill="#18212b">TCSVT&#x27;22</text>
+<text x="359.0" y="296" text-anchor="middle" fill="#5a486a">0.386</text>
+<text x="469.0" y="296" text-anchor="middle" fill="#5a486a">0.393</text>
+<text x="579.0" y="296" text-anchor="middle" fill="#734454">0.497</text>
+<text x="689.0" y="296" text-anchor="middle" fill="#624763">0.425</text>
+<text x="799.0" y="296" text-anchor="middle" fill="#79434e">0.517</text>
+<text x="909.0" y="296" text-anchor="middle" fill="#66465f">0.441</text>
+<text x="1019.0" y="296" text-anchor="middle" fill="#7f4248">0.550</text>
+<text x="1129.0" y="296" text-anchor="middle" fill="#1d52a3">0.126</text>
+<text x="1239.0" y="296" text-anchor="middle" fill="#5e4767">0.408</text>
+<text x="1349.0" y="296" text-anchor="middle" fill="#604765">0.416</text>
+<text x="36" y="336" text-anchor="start" fill="#18212b">Cat-Net</text>
+<text x="216" y="336" text-anchor="start" fill="#18212b">IJCV&#x27;22</text>
+<text x="359.0" y="336" text-anchor="middle" fill="#b23a19">0.760</text>
+<text x="469.0" y="336" text-anchor="middle" fill="#963f33">0.641</text>
+<text x="579.0" y="336" text-anchor="middle" fill="#b23a19">0.764</text>
+<text x="689.0" y="336" text-anchor="middle" fill="#a83c22">0.722</text>
+<text x="799.0" y="336" text-anchor="middle" fill="#8d403b">0.609</text>
+<text x="909.0" y="336" text-anchor="middle" fill="#295098">0.178</text>
+<text x="1019.0" y="336" text-anchor="middle" fill="#504a74">0.343</text>
+<text x="1129.0" y="336" text-anchor="middle" fill="#0e54b1">0.063</text>
+<text x="1239.0" y="336" text-anchor="middle" fill="#464b7d">0.298</text>
+<text x="1349.0" y="336" text-anchor="middle" fill="#6f4557">0.480</text>
+<rect x="24" y="350" width="1380" height="40" fill="#f4f5f7"/>
+<line x1="24" y1="350" x2="1404" y2="350" stroke="#78818b" stroke-width="1.5"/>
+<text x="36" y="376" text-anchor="start" fill="#18212b">TIFDM</text>
+<text x="216" y="376" text-anchor="start" fill="#18212b">TCE&#x27;24</text>
+<text x="359.0" y="376" text-anchor="middle" fill="#1453ab">0.090</text>
+<text x="469.0" y="376" text-anchor="middle" fill="#3b4d87">0.257</text>
+<text x="579.0" y="376" text-anchor="middle" fill="#3b4d87">0.259</text>
+<text x="689.0" y="376" text-anchor="middle" fill="#2f4f92">0.202</text>
+<text x="799.0" y="376" text-anchor="middle" fill="#0c54b3">0.058</text>
+<text x="909.0" y="376" text-anchor="middle" fill="#0056be">0.006</text>
+<text x="1019.0" y="376" text-anchor="middle" fill="#0256bc">0.013</text>
+<text x="1129.0" y="376" text-anchor="middle" fill="#0256bc">0.018</text>
+<text x="1239.0" y="376" text-anchor="middle" fill="#0455ba">0.024</text>
+<text x="1349.0" y="376" text-anchor="middle" fill="#1752a9">0.100</text>
+<text x="36" y="416" text-anchor="start" fill="#18212b">CAFTB</text>
+<text x="216" y="416" text-anchor="start" fill="#18212b">TOMM&#x27;24</text>
+<text x="359.0" y="416" text-anchor="middle" fill="#444b7f">0.292</text>
+<text x="469.0" y="416" text-anchor="middle" fill="#58486c">0.377</text>
+<text x="579.0" y="416" text-anchor="middle" fill="#4c4a78">0.328</text>
+<text x="689.0" y="416" text-anchor="middle" fill="#4c4a78">0.332</text>
+<text x="799.0" y="416" text-anchor="middle" fill="#3b4d87">0.262</text>
+<text x="909.0" y="416" text-anchor="middle" fill="#1b52a5">0.119</text>
+<text x="1019.0" y="416" text-anchor="middle" fill="#464b7d">0.301</text>
+<text x="1129.0" y="416" text-anchor="middle" fill="#0655b8">0.033</text>
+<text x="1239.0" y="416" text-anchor="middle" fill="#295098">0.179</text>
+<text x="1349.0" y="416" text-anchor="middle" fill="#374d8b">0.244</text>
+<rect x="24" y="430" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="456" text-anchor="start" fill="#18212b">DTD</text>
+<text x="216" y="456" text-anchor="start" fill="#18212b">CVPR&#x27;23</text>
+<text x="359.0" y="456" text-anchor="middle" fill="#a03d2a">0.686</text>
+<text x="469.0" y="456" text-anchor="middle" fill="#ac3b1e" font-weight="700">0.739</text>
+<text x="579.0" y="456" text-anchor="middle" fill="#bd390f" text-decoration="underline">0.803</text>
+<text x="689.0" y="456" text-anchor="middle" fill="#ae3b1d">0.743</text>
+<text x="799.0" y="456" text-anchor="middle" fill="#7b434c">0.525</text>
+<text x="909.0" y="456" text-anchor="middle" fill="#1d52a3">0.124</text>
+<text x="1019.0" y="456" text-anchor="middle" fill="#424c81">0.284</text>
+<text x="1129.0" y="456" text-anchor="middle" fill="#0c54b3">0.058</text>
+<text x="1239.0" y="456" text-anchor="middle" fill="#394d89">0.247</text>
+<text x="1349.0" y="456" text-anchor="middle" fill="#6b455b">0.460</text>
+<text x="36" y="496" text-anchor="start" fill="#18212b">FFDN</text>
+<text x="216" y="496" text-anchor="start" fill="#18212b">ECCV&#x27;24</text>
+<text x="359.0" y="496" text-anchor="middle" fill="#cd3600" font-weight="700">0.877</text>
+<text x="469.0" y="496" text-anchor="middle" fill="#ac3b1e" font-weight="700">0.739</text>
+<text x="579.0" y="496" text-anchor="middle" fill="#c1380b" font-weight="700">0.821</text>
+<text x="689.0" y="496" text-anchor="middle" fill="#bf380d" font-weight="700">0.813</text>
+<text x="799.0" y="496" text-anchor="middle" fill="#7d424a">0.533</text>
+<text x="909.0" y="496" text-anchor="middle" fill="#374d8b">0.241</text>
+<text x="1019.0" y="496" text-anchor="middle" fill="#524972">0.357</text>
+<text x="1129.0" y="496" text-anchor="middle" fill="#0e54b1">0.071</text>
+<text x="1239.0" y="496" text-anchor="middle" fill="#464b7d">0.300</text>
+<text x="1349.0" y="496" text-anchor="middle" fill="#79434e">0.520</text>
+<rect x="24" y="510" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="536" text-anchor="start" fill="#18212b">ADCD-Net</text>
+<text x="216" y="536" text-anchor="start" fill="#18212b">ICCV&#x27;25</text>
+<text x="359.0" y="536" text-anchor="middle" fill="#bd390f">0.803</text>
+<text x="469.0" y="536" text-anchor="middle" fill="#a83c22" text-decoration="underline">0.718</text>
+<text x="579.0" y="536" text-anchor="middle" fill="#b83913">0.791</text>
+<text x="689.0" y="536" text-anchor="middle" fill="#b43a17" text-decoration="underline">0.771</text>
+<text x="799.0" y="536" text-anchor="middle" fill="#923f37">0.623</text>
+<text x="909.0" y="536" text-anchor="middle" fill="#66465f">0.441</text>
+<text x="1019.0" y="536" text-anchor="middle" fill="#874141">0.579</text>
+<text x="1129.0" y="536" text-anchor="middle" fill="#25509c">0.159</text>
+<text x="1239.0" y="536" text-anchor="middle" fill="#69465d">0.450</text>
+<text x="1349.0" y="536" text-anchor="middle" fill="#89413f">0.588</text>
+<line x1="24" y1="550" x2="1404" y2="550" stroke="#78818b" stroke-width="1.5"/>
+<text x="36" y="576" text-anchor="start" fill="#18212b" font-weight="700">RiSE-1</text>
+<text x="216" y="576" text-anchor="start" fill="#18212b">Ours</text>
+<text x="359.0" y="576" text-anchor="middle" fill="#ae3b1d">0.744</text>
+<text x="469.0" y="576" text-anchor="middle" fill="#89413f">0.590</text>
+<text x="579.0" y="576" text-anchor="middle" fill="#983e31">0.654</text>
+<text x="689.0" y="576" text-anchor="middle" fill="#9a3e30">0.662</text>
+<text x="799.0" y="576" text-anchor="middle" fill="#aa3b20">0.728</text>
+<text x="909.0" y="576" text-anchor="middle" fill="#8b403d">0.597</text>
+<text x="1019.0" y="576" text-anchor="middle" fill="#a03d2a">0.686</text>
+<text x="1129.0" y="576" text-anchor="middle" fill="#23519e">0.158</text>
+<text x="1239.0" y="576" text-anchor="middle" fill="#7f4248">0.542</text>
+<text x="1349.0" y="576" text-anchor="middle" fill="#8b403d">0.594</text>
+<rect x="24" y="590" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="616" text-anchor="start" fill="#18212b" font-weight="700">RiSE-3</text>
+<text x="216" y="616" text-anchor="start" fill="#18212b">Ours</text>
+<text x="359.0" y="616" text-anchor="middle" fill="#b23a19">0.764</text>
+<text x="469.0" y="616" text-anchor="middle" fill="#89413f">0.588</text>
+<text x="579.0" y="616" text-anchor="middle" fill="#9e3d2c">0.675</text>
+<text x="689.0" y="616" text-anchor="middle" fill="#9e3d2c">0.676</text>
+<text x="799.0" y="616" text-anchor="middle" fill="#b23a19">0.760</text>
+<text x="909.0" y="616" text-anchor="middle" fill="#923f37">0.625</text>
+<text x="1019.0" y="616" text-anchor="middle" fill="#ac3b1e">0.740</text>
+<text x="1129.0" y="616" text-anchor="middle" fill="#27509a">0.173</text>
+<text x="1239.0" y="616" text-anchor="middle" fill="#854142">0.575</text>
+<text x="1349.0" y="616" text-anchor="middle" fill="#904039">0.618</text>
+<text x="36" y="656" text-anchor="start" fill="#18212b" font-weight="700">RiSE-9</text>
+<text x="216" y="656" text-anchor="start" fill="#18212b">Ours</text>
+<text x="359.0" y="656" text-anchor="middle" fill="#b83913">0.791</text>
+<text x="469.0" y="656" text-anchor="middle" fill="#874141">0.579</text>
+<text x="579.0" y="656" text-anchor="middle" fill="#a23d28">0.692</text>
+<text x="689.0" y="656" text-anchor="middle" fill="#a03d2a">0.687</text>
+<text x="799.0" y="656" text-anchor="middle" fill="#b63a15" text-decoration="underline">0.785</text>
+<text x="909.0" y="656" text-anchor="middle" fill="#a23d28" font-weight="700">0.692</text>
+<text x="1019.0" y="656" text-anchor="middle" fill="#bb3911" font-weight="700">0.795</text>
+<text x="1129.0" y="656" text-anchor="middle" fill="#27509a" text-decoration="underline">0.175</text>
+<text x="1239.0" y="656" text-anchor="middle" fill="#8d403b" text-decoration="underline">0.611</text>
+<text x="1349.0" y="656" text-anchor="middle" fill="#963f33" text-decoration="underline">0.644</text>
+<rect x="24" y="670" width="1380" height="40" fill="#f4f5f7"/>
+<text x="36" y="696" text-anchor="start" fill="#18212b" font-weight="700">RiSE-9-DCT</text>
+<text x="216" y="696" text-anchor="start" fill="#18212b">Ours</text>
+<text x="359.0" y="696" text-anchor="middle" fill="#cb3602" text-decoration="underline">0.864</text>
+<text x="469.0" y="696" text-anchor="middle" fill="#9a3e30">0.662</text>
+<text x="579.0" y="696" text-anchor="middle" fill="#b43a17">0.775</text>
+<text x="689.0" y="696" text-anchor="middle" fill="#b23a19">0.767</text>
+<text x="799.0" y="696" text-anchor="middle" fill="#bd390f" font-weight="700">0.808</text>
+<text x="909.0" y="696" text-anchor="middle" fill="#983e31" text-decoration="underline">0.654</text>
+<text x="1019.0" y="696" text-anchor="middle" fill="#b63a15" text-decoration="underline">0.784</text>
+<text x="1129.0" y="696" text-anchor="middle" fill="#314e90" font-weight="700">0.218</text>
+<text x="1239.0" y="696" text-anchor="middle" fill="#904039" font-weight="700">0.616</text>
+<text x="1349.0" y="696" text-anchor="middle" fill="#9e3d2c" font-weight="700">0.681</text>
+<line x1="24" y1="710" x2="1404" y2="710" stroke="#78818b" stroke-width="2"/>
+</g></svg>

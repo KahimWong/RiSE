@@ -1,0 +1,12 @@
+# Install a CUDA-compatible PyTorch build first (see README).
+torch>=2.4,<2.6
+torchvision>=0.19,<0.21
+transformers==5.7.0
+timm==1.0.19
+numpy>=1.26,<2
+Pillow>=10.0,<12
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+efficientnet-pytorch==0.7.1
+lmdb>=1.4,<2
+jpeg2dct==0.2.4

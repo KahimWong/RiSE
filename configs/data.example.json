@@ -1,0 +1,12 @@
+{
+  "root": "/path/to/datasets",
+  "datasets": {
+    "FCD": "../data/FCD.jsonl",
+    "SCD": "../data/SCD.jsonl",
+    "TestingSet": "../data/TestingSet.jsonl",
+    "T-SROIE": "../data/T-SROIE.jsonl",
+    "OSTF": "../data/OSTF.jsonl",
+    "TPIC-13": "../data/TPIC-13.jsonl",
+    "RTM": "../data/RTM.jsonl"
+  }
+}
