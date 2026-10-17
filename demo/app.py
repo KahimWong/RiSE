@@ -25,8 +25,6 @@ from rise.inference import predict
 
 MODEL_REPO = "Jason37437/RiSE"
 MODEL_REVISION = "37a9588590a59de22c22a301d0d9d63333e9c464"
-PRESERVE = "Original JPEG (512 × 512; no recompression)"
-CONVERT = "Resize to 512 × 512 and encode JPEG at quality 90"
 
 # The released checkpoint contains the full backbone. Only its architecture
 # config is bundled here, so startup needs no gated backbone download or token.
@@ -51,7 +49,7 @@ def predict_gpu(sample):
         return output["probability"][0].float().cpu().numpy()
 
 
-def analyze(upload, preprocessing):
+def analyze(upload):
     if not upload:
         raise gr.Error("Upload an image first.")
     path = Path(upload)
@@ -61,14 +59,12 @@ def analyze(upload, preprocessing):
     try:
         with Image.open(io.BytesIO(raw)) as source:
             original_size = source.size
-            if preprocessing == CONVERT:
-                # Explicit conversion supports PNG and arbitrary image sizes.
-                # It changes JPEG traces, so it is not the benchmark protocol.
-                image = ImageOps.exif_transpose(source).convert("RGB")
-                image = image.resize((512, 512), Image.Resampling.LANCZOS)
-                buffer = io.BytesIO()
-                image.save(buffer, format="JPEG", quality=90)
-                raw = buffer.getvalue()
+            # Apply the same preparation to every upload, including JPEGs.
+            image = ImageOps.exif_transpose(source).convert("RGB")
+            image = image.resize((512, 512), Image.Resampling.LANCZOS)
+            buffer = io.BytesIO()
+            image.save(buffer, format="JPEG", quality=100)
+            raw = buffer.getvalue()
         sample = read_jpeg(raw, use_dct=True)
     except (
         ValueError,
@@ -76,10 +72,7 @@ def analyze(upload, preprocessing):
         UnidentifiedImageError,
         Image.DecompressionBombError,
     ) as error:
-        raise gr.Error(
-            f"Cannot process this image: {error}. For other sizes or formats, "
-            "select the resize/JPEG quality 90 option."
-        ) from error
+        raise gr.Error(f"Cannot process this image: {error}.") from error
     image = np.asarray(Image.open(io.BytesIO(raw)).convert("RGB"))
     probability = predict_gpu(sample)
     # Blue → cyan → yellow → red, with a fixed probability scale [0, 1].
@@ -91,11 +84,7 @@ def analyze(upload, preprocessing):
     overlay = (image * (1 - alpha) + np.array([255, 35, 35]) * alpha).astype(np.uint8)
     details = (
         f"Input: {original_size[0]} × {original_size[1]}. "
-        + (
-            "Resized to 512 × 512 and JPEG-encoded once at quality 90."
-            if preprocessing == CONVERT
-            else "Original 512 × 512 JPEG bytes preserved."
-        )
+        + "Resized to 512 × 512 and JPEG-encoded once at quality 100."
         + " Mask threshold: 0.5. Heatmap: blue = low, red = high forgery probability."
     )
     return image, overlay, heatmap.astype(np.uint8), mask, details
@@ -109,17 +98,13 @@ with gr.Blocks(
         "Upload a document image to highlight suspected manipulated regions. "
         "[Code](https://github.com/KahimWong/RiSE) · "
         "[Checkpoint](https://huggingface.co/Jason37437/RiSE)\n\n"
-        "The model processes **512 × 512** images. The default option resizes and "
-        "JPEG-encodes your image at quality 90, which changes its compression traces. "
-        "For benchmark-style inference, select **Original JPEG** to preserve its bytes."
+        "Images are automatically resized to **512 × 512** and JPEG-encoded "
+        "at **quality 100** before localization."
     )
     with gr.Row():
         with gr.Column():
             upload = gr.File(
                 label="Upload image", file_types=["image"], type="filepath"
-            )
-            preprocessing = gr.Radio(
-                [CONVERT, PRESERVE], value=CONVERT, label="Image preparation"
             )
             run = gr.Button("Localize forgery", variant="primary")
         with gr.Column():
@@ -131,7 +116,7 @@ with gr.Blocks(
     status = gr.Textbox(label="Processing details", interactive=False)
     run.click(
         analyze,
-        [upload, preprocessing],
+        [upload],
         [preview, overlay, heatmap, mask, status],
         concurrency_limit=1,
         api_name="localize",

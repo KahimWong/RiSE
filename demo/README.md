@@ -17,7 +17,7 @@ models:
 
 Document forgery localization with nine residual experts, JPEG DCT features, and LPC expert selection.
 
-Upload an image to obtain its forgery overlay, probability heatmap, and binary mask. The default image preparation resizes to 512 × 512 and JPEG-encodes at quality 90. To preserve compression traces, select **Original JPEG** for 512 × 512 JPEGs with luminance quantization values below 64. Outputs correspond to the processed 512 × 512 image.
+Upload an image to obtain its forgery overlay, probability heatmap, and binary mask. Every upload is automatically resized to 512 × 512 and JPEG-encoded once at quality 100 before inference. Outputs correspond to the processed 512 × 512 image.
 
 The app loads the released checkpoint strictly, fuses DCT at block index 10, and uses sequential expert evaluation to reduce GPU memory. ADF quadrature order is 5 and mask threshold is 0.5. The full backbone is included in the checkpoint; the bundled backbone configuration contains no weights or credentials.
 

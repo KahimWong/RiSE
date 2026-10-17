@@ -6,7 +6,7 @@
 
 > RiSE preserves the principal subspace of a pretrained vision backbone and learns small residual experts for different forgery subsets. Latent Perturbation Confidence (LPC) selects an expert without ground-truth masks.
 
-**[Try RiSE-9-DCT online](https://huggingface.co/spaces/Jason37437/RiSE-9-DCT):** upload an image to view its forgery overlay, heatmap, and mask. The demo processes 512 × 512 images; select original-JPEG mode to preserve compression traces. See [demo deployment](demo/README.md) to host your own ZeroGPU Space.
+**[Try RiSE-9-DCT online](https://huggingface.co/spaces/Jason37437/RiSE-9-DCT):** upload an image to view its forgery overlay, heatmap, and mask. The demo automatically resizes images to 512 × 512 and JPEG-encodes them at quality 100. See [demo deployment](demo/README.md) to host your own ZeroGPU Space.
 
 <p align="center"><img src="assets/overview.png" width="95%" alt="RiSE training and expert architecture"></p>
 
