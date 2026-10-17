@@ -1,0 +1,11 @@
+# Separate from training requirements: ZeroGPU requires PyTorch 2.8 or newer.
+spaces
+torch==2.8.0
+torchvision==0.23.0
+transformers==5.7.0
+timm==1.0.19
+huggingface-hub>=1.0,<2
+numpy>=1.26,<2
+Pillow>=10,<12
+efficientnet-pytorch==0.7.1
+jpeg2dct==0.2.4

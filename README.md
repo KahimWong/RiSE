@@ -1,9 +1,12 @@
 # RiSE
 
+[![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-Online%20Demo-orange)](https://huggingface.co/spaces/Jason37437/RiSE-9-DCT)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/Jason37437/RiSE)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Jason37437/Doc-Protocol-Data)
 
 > RiSE preserves the principal subspace of a pretrained vision backbone and learns small residual experts for different forgery subsets. Latent Perturbation Confidence (LPC) selects an expert without ground-truth masks.
+
+**[Try RiSE-9-DCT online](https://huggingface.co/spaces/Jason37437/RiSE-9-DCT):** upload an image to view its forgery overlay, heatmap, and mask. The demo processes 512 × 512 images; select original-JPEG mode to preserve compression traces. See [demo deployment](demo/README.md) to host your own ZeroGPU Space.
 
 <p align="center"><img src="assets/overview.png" width="95%" alt="RiSE training and expert architecture"></p>
 
