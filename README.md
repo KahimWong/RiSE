@@ -1,5 +1,7 @@
 # RiSE
 
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/Jason37437/RiSE)
+
 > RiSE preserves the principal subspace of a pretrained vision backbone and learns small residual experts for different forgery subsets. Latent Perturbation Confidence (LPC) selects an expert without ground-truth masks.
 
 <p align="center"><img src="assets/overview.png" width="95%" alt="RiSE training and expert architecture"></p>
