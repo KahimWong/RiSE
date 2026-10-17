@@ -76,12 +76,21 @@ The loader compresses each in-domain image **once at `record[-1]`** and reads cr
 
 ## 🧩 Models and Checkpoints
 
-| Variant | Experts | Training partition | Config |
-|---|---:|---|---|
-| RiSE-1 | 1 | Entire training set | `configs/rise1.json` |
-| RiSE-3 | 3 | GE / CM / SP synthesis types | `configs/rise3.json` |
-| RiSE-9 | 9 | Three balanced clusters within each type | `configs/rise9.json` |
-| RiSE-9-DCT | 9 | Same nine subsets, plus DCT fusion | `configs/rise9_dct.json` |
+Download pretrained models from [Hugging Face — Jason37437/RiSE](https://huggingface.co/Jason37437/RiSE).
+
+| Variant | Experts | Training partition | Config | Checkpoint |
+|---|---:|---|---|---|
+| RiSE-1 | 1 | Entire training set | `configs/rise1.json` | [RiSE-1.pth](https://huggingface.co/Jason37437/RiSE/resolve/main/RiSE-1.pth) |
+| RiSE-3 | 3 | GE / CM / SP synthesis types | `configs/rise3.json` | [RiSE-3.pth](https://huggingface.co/Jason37437/RiSE/resolve/main/RiSE-3.pth) |
+| RiSE-9 | 9 | Three balanced clusters within each type | `configs/rise9.json` | [RiSE-9.pth](https://huggingface.co/Jason37437/RiSE/resolve/main/RiSE-9.pth) |
+| RiSE-9-DCT | 9 | Same nine subsets, plus DCT fusion | `configs/rise9_dct.json` | [RiSE-9-DCT.pth](https://huggingface.co/Jason37437/RiSE/resolve/main/RiSE-9-DCT.pth) |
+
+```bash
+# Download all four checkpoints.
+hf download Jason37437/RiSE --include "*.pth" --local-dir checkpoints
+```
+
+For a single model, use `hf download Jason37437/RiSE RiSE-9.pth --local-dir checkpoints`. Filenames are case-sensitive; use the matching config above.
 
 ## 🚀 Training
 
@@ -104,7 +113,7 @@ For **RiSE-9 / RiSE-9-DCT**, extract queries from a trained RiSE-1 checkpoint an
 
 ```bash
 python tools/extract_queries.py \
-  --checkpoint checkpoints/rise1.pth --manifest data/train_rise1.jsonl \
+  --checkpoint checkpoints/RiSE-1.pth --manifest data/train_rise1.jsonl \
   --data-root /path/to/DocTamperV1 \
   --forgery-types /path/to/DocTamperV1-TrainingSet.pk \
   --output outputs/training_queries.npz
@@ -129,7 +138,7 @@ Choose the matching config and manifest for each variant; both nine-expert varia
 ## 🔎 Single-Image Inference
 
 ```bash
-python infer.py --checkpoint checkpoints/rise9.pth --config configs/rise9.json \
+python infer.py --checkpoint checkpoints/RiSE-9.pth --config configs/rise9.json \
   --image /path/to/image.jpg --output outputs/demo
 ```
 
@@ -138,7 +147,7 @@ Use a **512×512** input; DCT models require JPEG. No ground-truth mask is neede
 ## 📈 Seven-Set Evaluation
 
 ```bash
-python evaluate.py --checkpoint checkpoints/rise9.pth --config configs/rise9.json \
+python evaluate.py --checkpoint checkpoints/RiSE-9.pth --config configs/rise9.json \
   --data configs/data.json --output outputs/rise9_eval --gh-order 5
 ```
 
@@ -167,4 +176,4 @@ tools/                           # Manifests, query extraction, balanced partiti
 
 ## 🙏 Acknowledgements
 
-Built on [EoMT](https://github.com/tue-mps/eomt), [DINOv3](https://github.com/facebookresearch/dinov3), [Effort](https://github.com/593Media/Effort), timm, Transformers, and efficientnet-pytorch.
+Built on [EoMT](https://github.com/tue-mps/eomt), [DINOv3](https://github.com/facebookresearch/dinov3), [Effort](https://github.com/YZY-stack/Effort-AIGI-Detection), timm, Transformers, and efficientnet-pytorch.
